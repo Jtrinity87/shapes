@@ -1,0 +1,61 @@
+.grey-box {
+    background-color: grey;
+    color: white;
+    padding: 20px 10px;
+    border-bottom: 5px solid black;
+}
+.grey-box-bottom {
+    background-color: grey;
+    color: white;
+    padding: 20px 10px;
+    border-top: 5px solid black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.white-space {
+    min-height: white;
+}
+    .square {
+        padding: 25px 50px 75px 100px;
+        margin: 25px 50px 75px 100px;
+        height: 100px;
+        width: 75px;
+        background-color: #fdb515
+      }
+      
+      .square-with-border {
+        border: solid; border-color: blue; border-width: 10px;
+        padding: 25px 50px 75px 100px;
+        margin: 25px 50px 75px 100px;
+        height: 100px;
+        width: 75px;
+        background-color: #fdb515
+      }
+            
+      .square-inside {
+        z-index: 1;
+        position: absolute;
+        background-color: green;
+        width: 100px;
+        height: 100px;
+        top: 25%;
+        left: 25%;
+      }
+         .outside {
+            position: initial;
+            background-color: #fdb515;
+            width: 200px;
+            height: 200px;
+            top: 50%;
+            left: 50%;
+          }
+          
+          .inside {
+            position: inherit;
+            background-color: green;
+            width: 100px;
+            height: 100px;
+            top: 25%;
+            left: 25%;
+          }
+        

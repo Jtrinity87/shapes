@@ -1,0 +1,17 @@
+.grey-box {
+    background-color: grey;
+    color: white;
+    padding: 20px 10px;
+    border-bottom: 5px solid black;
+}
+.grey-box-bottom {
+    background-color: grey;
+    color: white;
+    padding: 20px 10px;
+    border-top: 5px solid black;
+    font-size: 20px;
+    text-decoration: none;
+    
+.white-space {
+    min-height: white;
+}
